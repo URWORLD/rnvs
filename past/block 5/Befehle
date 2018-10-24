@@ -1,0 +1,6 @@
+GET:
+curl -v http://localhost:4711/keyNameDELETE:
+curl -v -X DELETE http://localhost:4711/keyNamePUT:
+curl -v -X PUT -d 'data={"value":"valueName","key":"keyName"}' http://localhost:4711/keyName
+POST:
+curl -v -X POST -d 'data={"value":"valueName","key":"keyName"}' http://localhost:4711/keyName
